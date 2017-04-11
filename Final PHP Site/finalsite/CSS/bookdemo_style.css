@@ -1,0 +1,413 @@
+@font-face {
+    font-family: myFont;
+    src: url(../Content/Fonts/MostlyMono.ttf);
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(../Content/Fonts/tomhand.ttf);
+}
+
+@font-face {
+    font-family: myFont3;
+    src: url(../Content/Fonts/teen1.ttf);
+}
+
+@font-face {
+    font-family: myFont4;
+    src: url(../Content/Fonts/teen2.ttf);
+}
+
+body{
+	height: 100%;
+    overflow: auto;
+}
+
+#coverpage_title{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 55px;
+	font-family: myFont3;
+	font-weight: lighter;
+}
+
+#coverpage_images{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    white-space:nowrap;
+}
+
+#coverpage{
+	margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#coverpage_image1, #coverpage_image2, #coverpage_image3, #coverpage_image_secondset1, #coverpage_image_secondset2, #coverpage_image_secondset3, #coverpage_image_thirdset1, #coverpage_image_thirdset2, #coverpage_image_thirdset3 {
+    margin-right: 15px;
+    -webkit-border-image: url(photo1.jpg) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(photo1.jpg) 30 round; /* Opera 11-12.1 */
+    border-image: url(photo1.jpg) 30 round;
+    /*display:none;*/
+}
+
+ul#navigation {
+ 	bottom: 0;
+ 	width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation li a{
+	text-decoration: none;
+	color: black;
+}
+
+.MenuContainer {
+    height: 70px;
+    bottom:0;
+}
+
+.MenuContainer_books {
+    height: 70px;
+}
+
+ul#navigation_books {
+ 	width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation_books li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation_books li a{
+	text-decoration: none;
+	color: black;
+}
+
+#SideContainer_books {
+    float: left;	
+    text-align: right;
+}
+
+ul#SideContainer_navigation_books {
+    list-style: none;
+    padding-bottom: 70px;
+    font-size: 22px;
+}
+
+ul#SideContainer_navigation_books li {
+    list-style: none;											
+    font:bold 14px/30px Georgia, serif;
+    margin: 25px 0;																/*This is where we are spacing the list elements*/									
+    text-decoration: none;
+}
+
+ul#SideContainer_navigation_books li a{
+	text-decoration: none;
+	color: black;
+	padding: 0px 0 0px 250px;							/*This is where we are adjusting how far the sidebar goes into the page*/
+}
+
+.MenuContainer_cards {
+    height: 70px;
+}
+
+ul#navigation_cards {
+	width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation_cards li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation_cards li a{
+	text-decoration: none;
+	color: black;
+}
+
+#SideContainer_cards {
+    float: left;    
+    text-align: right;
+}
+
+ul#SideContainer_navigation_cards {
+    list-style: none;
+    padding-bottom: 70px;
+    font-size: 22px;
+}
+
+ul#SideContainer_navigation_cards li {
+    list-style: none;                                            
+    font:bold 14px/30px Georgia, serif;
+    margin: 25px 0;                                                             /*This is where we are spacing the list elements*/                                  
+    text-decoration: none;
+}
+
+ul#SideContainer_navigation_cards li a{
+	text-decoration: none;
+    color: black;
+    padding: 0px 0 0px 250px;                           /*This is where we are adjusting how far the sidebar goes into the page*/
+}
+
+.MenuContainer_commercial {
+    height: 70px;
+}
+
+ul#navigation_commercial {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation_commercial li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation_commercial li a{
+    text-decoration: none;
+    color: black;
+}
+
+#SideContainer_commercial {
+    float: left;    
+    text-align: right;
+}
+
+ul#SideContainer_navigation_commercial {
+    list-style: none;
+    padding-bottom: 70px;
+    font-size: 22px;
+}
+
+ul#SideContainer_navigation_commercial li {
+    list-style: none;                                           
+    font:bold 14px/30px Georgia, serif;
+    margin: 25px 0;                                                             /*This is where we are spacing the list elements*/                                  
+    text-decoration: none;
+}
+
+ul#SideContainer_navigation_commercial li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 0 0px 250px;                           /*This is where we are adjusting how far the sidebar goes into the page*/
+}
+
+
+#grid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:40em;                                                                         /*This is where we are changing how many images fit in row of grid*/
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    color: black;
+}
+
+#Caterpillars_In_Love, #Good_Wish{
+    margin-right: 17px;
+    margin-left: 17px;                                                                                  /*changed from margin right 35px to margin left and right so the images are
+                                                                                                   positively in the center of the page*/
+    -webkit-border-image: url(photo1.jpg) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(photo1.jpg) 30 round; /* Opera 11-12.1 */
+    border-image: url(photo1.jpg) 30 round;
+}
+
+
+
+#The_Road_to_Babcias_House{
+    margin-right: 17px;
+    margin-left: 17px;                                                                                  /*changed from margin right 35px to margin left and right so the images are
+                                                                                                   positively in the center of the page*/
+    margin-bottom: 40px;
+    margin-top: 10px;
+    -webkit-border-image: url(photo1.jpg) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(photo1.jpg) 30 round; /* Opera 11-12.1 */
+    border-image: url(photo1.jpg) 30 round;
+}
+
+#Topsy_Turvy{
+    margin-right: 17px;
+    margin-left: 17px;                                                                                  /*changed from margin right 35px to margin left and right so the images are
+                                                                                                   positively in the center of the page*/
+    margin-bottom: 34px;
+    -webkit-border-image: url(photo1.jpg) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(photo1.jpg) 30 round; /* Opera 11-12.1 */
+    border-image: url(photo1.jpg) 30 round;
+}
+
+
+
+
+#myTable2{
+    padding-top: 30px;
+    border-style: none;
+   /* margin: 0px auto; */
+}
+
+#myTable3{
+    padding-top: 30px;
+    border-style: none;
+    margin: 0 auto;
+    
+}
+
+#caterpillar_container{
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+#back_button{
+	padding-left: 30px;
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+}
+
+#illustrator{
+    font-size: 16px;
+    color: gray;
+}
+
+#book_description{
+    top: 0;
+    vertical-align: text-top;
+}
+
+#captions{
+    margin: 0 auto;
+	text-align: center;
+    padding-bottom: 30px;
+}
+
+#myTable{
+    padding-top: 30px;
+    border-style: none;
+	margin: 0 auto;
+}
+
+#myTable1{
+    padding-top: 30px;
+	padding-right: 15%;
+	padding-left: 15%;
+    border-style: none;
+    margin: 0 auto;
+	
+}
+
+#Peaceful_Activist{
+    border: 1px solid;                                                                                                    /*can change to margin right and left each 17px*/
+    border-color: black;
+    -webkit-border-image: url(photo1.jpg) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(photo1.jpg) 30 round; /* Opera 11-12.1 */
+    border-image: url(photo1.jpg) 30 round;
+    margin-right: 17px;
+    margin-left: 17px;                                                                                  
+    margin-bottom: 25px;
+    -webkit-border-image: url(photo1.jpg) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(photo1.jpg) 30 round; /* Opera 11-12.1 */
+    border-image: url(photo1.jpg) 30 round;
+
+}
+
+#season_header{
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 25px;
+	font-family: myFont3;
+	font-weight: lighter;
+}
+
+#image_slideshow_table{
+	margin: 0 auto;
+	border-collapse: collapse;
+    border-spacing: 0;
+	margin-bottom: 30px;
+}
+
+#image_slideshow_table th {
+    /* This covers the th elements */
+}
+#image_slideshow_table tr {
+    /* This covers the tr elements */
+}
+#image_slideshow_table th, td {
+    /* cellpadding */
+    padding: 0;
+}
+
+#image_slideshow_captions{
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

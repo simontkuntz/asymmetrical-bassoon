@@ -1,0 +1,496 @@
+@font-face {
+    font-family: myFont;
+    src: url(../Content/Fonts/MostlyMono.ttf);
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(../Content/Fonts/tomhand.ttf);
+}
+
+@font-face {
+    font-family: myFont3;
+    src: url(../Content/Fonts/teen1.ttf);
+}
+
+@font-face {
+    font-family: myFont4;
+    src: url(../Content/Fonts/teen2.ttf);
+}
+
+
+body{
+	height: 100%;  /*removed overflow auto*/
+	
+}
+
+h4{
+	text-align: center;
+}
+
+#coverpage_title{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 55px;
+	font-family: myFont3;
+	font-weight: lighter;
+}
+
+#coverpage_images{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    white-space:nowrap;
+}
+
+#coverpage{
+	margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#coverpage_image1, #coverpage_image2, #coverpage_image3, #coverpage_image_secondset1, #coverpage_image_secondset2, #coverpage_image_secondset3, #coverpage_image_thirdset1, #coverpage_image_thirdset2, #coverpage_image_thirdset3 {
+    margin-right: 15px;
+    -webkit-border-image: url(photo1.jpg) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(photo1.jpg) 30 round; /* Opera 11-12.1 */
+    border-image: url(photo1.jpg) 30 round;
+    /*display:none;*/
+}
+
+ul#navigation {
+ 	bottom: 0;
+ 	width: 100%;
+    list-style: none;
+    margin: 0 auto;                 /*added auto*/
+    padding: 0;
+    padding-bottom: 70px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    /*margin: 0;
+    padding: 30px;*/
+    padding-right: 15px;
+    padding-left: 15px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation li a{
+	text-decoration: none;
+	color: black;
+}
+
+.MenuContainer {
+                                /*removed height: 70px;
+                                            bottom:0;*/
+}
+
+.MenuContainer_books {
+    height: 70px;
+}
+
+ul#navigation_books {
+ 	width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation_books li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation_books li a{
+	text-decoration: none;
+	color: black;
+}
+
+#SideContainer_books {
+    float: left;	
+    text-align: right;
+}
+
+ul#SideContainer_navigation_books {
+    list-style: none;
+    padding-bottom: 70px;
+    font-size: 22px;
+}
+
+ul#SideContainer_navigation_books li {
+    list-style: none;											
+    font:bold 14px/30px Georgia, serif;
+    margin: 25px 0;																/*This is where we are spacing the list elements*/									
+    text-decoration: none;
+}
+
+ul#SideContainer_navigation_books li a{
+	text-decoration: none;
+	color: black;
+	padding: 0px 0 0px 250px;							/*This is where we are adjusting how far the sidebar goes into the page*/
+}
+
+.MenuContainer_cards {
+    height: 70px;
+}
+
+ul#navigation_cards {
+	width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation_cards li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation_cards li a{
+	text-decoration: none;
+	color: black;
+}
+
+#SideContainer_cards {
+    float: left;    
+    text-align: right;
+}
+
+ul#SideContainer_navigation_cards {
+    list-style: none;
+    padding-bottom: 70px;
+    font-size: 22px;
+}
+
+ul#SideContainer_navigation_cards li {
+    list-style: none;                                            
+    font:bold 14px/30px Georgia, serif;
+    margin: 25px 0;                                                             /*This is where we are spacing the list elements*/                                  
+    text-decoration: none;
+}
+
+ul#SideContainer_navigation_cards li a{
+	text-decoration: none;
+    color: black;
+    padding: 0px 0 0px 250px;                           /*This is where we are adjusting how far the sidebar goes into the page*/
+}
+
+.MenuContainer_commercial {
+    height: 70px;
+}
+
+ul#navigation_commercial {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation_commercial li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation_commercial li a{
+    text-decoration: none;
+    color: black;
+}
+
+#SideContainer_commercial {
+    float: left;    
+    text-align: right;
+}
+
+ul#SideContainer_navigation_commercial {
+    list-style: none;
+    padding-bottom: 70px;
+    font-size: 22px;
+}
+
+ul#SideContainer_navigation_commercial li {
+    list-style: none;                                           
+    font:bold 14px/30px Georgia, serif;
+    margin: 25px 0;                                                             /*This is where we are spacing the list elements*/                                  
+    text-decoration: none;
+}
+
+ul#SideContainer_navigation_commercial li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 0 0px 250px;                           /*This is where we are adjusting how far the sidebar goes into the page*/
+}
+
+
+#grid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:40em;                                                                         /*This is where we are changing how many images fit in row of grid*/
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    color: black;
+}
+
+#Caterpillars_In_Love, #Topsy_Turvy, #Good_Wish, #The_Road_to_Babcias_House, #Peaceful_Activist{
+    border: 1px solid;
+    margin-right: 35px;
+    border-color: black;
+    margin-top: 35px;
+    -webkit-border-image: url(photo1.jpg) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(photo1.jpg) 30 round; /* Opera 11-12.1 */
+    border-image: url(photo1.jpg) 30 round;
+}
+
+#left_images {
+    float: left;
+    padding-bottom: 20px;
+    clear:both;
+}
+
+#right_images{
+    float: right;
+    padding-bottom: 20px;
+    clear: both;
+}
+
+#extra{
+    margin-left: 200px;
+}
+
+#bioheader{
+    font-size: 40px;
+    font-family: myFont;
+    margin: auto;
+}
+
+#continuation{
+    padding-left: 40px;
+}
+
+#footer{
+    text-align: center;
+    margin: auto;
+    clear: both;
+}
+
+ul#navigation_contact {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation_contact li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation_contact li a{
+    text-decoration: none;
+    color: black;
+}
+
+#about_Tanya{
+    top: 0;
+    width: 160px;
+    word-wrap: break-word;
+    font-size: 15px;
+    font-family: myFont2;
+}
+
+#container{
+    padding-left: 5%;              /*changed these to a percentage*/
+    padding-right: 5%;
+}
+
+#left_content{
+    float: left;
+    overflow: auto;
+    width: 200px;
+    padding-right: 10px;                                    /*if getting any issues, change this back to 20px*/
+    padding-left: 7%;
+}
+
+#center_content{
+    margin: 0 auto;                 /*from 25 to 30*/
+	text-align: center;
+  /*  padding-right: 30%;
+    padding-left: 30%;*/
+    /*width: 41%;   wanted to try out this width to see if best of both worlds*/
+    /*width: 30%;  this is best for the mobile site mode, doesnt skew the page but paragraph is indeed smaller*/
+    width: 35%; /*this is best for the normal desktop mode*/
+}
+
+#right_content{
+    float: right;
+    top: 0;
+    padding-right: 7%;
+    overflow: auto;
+    width: 200px;
+    padding-left: 10px;                     /*if getting any issues, change this back to 30px*/
+}
+
+#figcap{
+    max-width: 118px;
+    word-wrap: break-word;
+}
+
+#figcap_last{
+    max-width: 118px;
+    padding-bottom: 10px;
+    word-wrap: break-word;
+}
+
+#right_content_image{
+    padding-top: 10px;
+}
+
+#right_content_image1{
+    
+}
+
+#illustrator{
+    font-size: 16px;
+    color: gray;
+}
+
+#orders{
+	text-align: center;
+}
+
+#orderTitle{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#adminTitle{
+	text-align: center;
+	font-size: 16px;
+	color: red;
+}
+
+#orderImage{
+	border-style: solid;
+    border-width: thin;
+}
+
+#myForm{
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+	border-radius: 5px;
+	margin: 0 auto; 
+	text-align: center;
+	vertical-align: middle;
+}
+#noAccountFound{
+	padding: 12px 20px;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+	border-radius: 5px;
+	margin: 0 auto; 
+	text-align: center;
+	vertical-align: middle;
+}
+
+#previousOrders{
+    margin: 0 auto;
+	text-align: center;	
+	border: 2px solid #ccc;
+    background-color: #f2f2f2;
+	border-radius: 5px;
+	display: none;
+}
+
+#previousOrders td{
+	padding:0 40px 0 40px;
+}
+
+#noAccountFoundParent{
+	display: flex;
+	height: 100%:
+	margin: 0 auto; 
+}
+#parentDiv{
+	display: inline-table;
+	height: 100%:	
+}
+
+#accounts{
+	margin: 0 auto;
+	text-align: center;	
+	border: 2px solid #ccc;
+    background-color: #f2f2f2;
+	border-radius: 5px;
+	margin-bottom: 3%;
+}
+
+#accounts td
+{
+    padding:0 30px 0 30px;
+}
+
+a{
+	color: black;
+}
+
+#center_content1{
+    margin: 0 auto;                 /*from 25 to 30*/
+    width: 35%; /*this is best for the normal desktop mode*/
+	text-decoration: none;
+	color: black;
+}
+
+#fileDescriptionTable  td{
+	padding: 8px;
+}

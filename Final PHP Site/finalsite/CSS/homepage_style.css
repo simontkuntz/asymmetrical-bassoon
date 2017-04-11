@@ -1,0 +1,253 @@
+@font-face {
+    font-family: myFont;
+    src: url(../Content/Fonts/MostlyMono.ttf);
+}
+
+@font-face {
+    font-family: myFont3;
+    src: url(../Content/Fonts/teen1.ttf);
+}
+
+@font-face {
+    font-family: myFont4;
+    src: url(../Content/Fonts/teen2.ttf);
+}
+
+body{
+	height: 100%;
+}
+
+#coverpage_title{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 55px;
+	font-family: myFont3;
+	font-weight: lighter;
+}
+
+#coverpage_images{
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    align-content: middle;              /*see what we can copy in with this code*/
+    padding-bottom: 40px;
+    text-align: center;
+    display: block;                     /*doesnt change anything between browsers*/
+    margin: auto;
+    white-space:nowrap;
+}
+
+#coverpage{
+	margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    width: 6em;
+    display: block;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
+#coverpage_image1, #coverpage_image2, #coverpage_image3, #coverpage_image_secondset1, #coverpage_image_secondset2, #coverpage_image_secondset3, #coverpage_image_thirdset1, #coverpage_image_thirdset2, #coverpage_image_thirdset3 {
+	width: 90%
+
+    height: 90%;
+}
+
+ul#navigation {
+ 	bottom: 0;
+ 	width: 100%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 70px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation li a{
+	text-decoration: none;
+	color: black;
+}
+
+.MenuContainer {
+    
+}
+
+.MenuContainer_books {
+    height: 70px;
+}
+
+ul#navigation_books {
+	position: fixed;
+ 	width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation_books li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation_books li a{
+	text-decoration: none;
+	color: black;
+}
+
+#SideContainer_books {
+    position: fixed;	
+    text-align: right;
+}
+
+ul#SideContainer_navigation_books {
+    list-style: none;
+    padding-bottom: 70px;
+    font-size: 22px;
+}
+
+ul#SideContainer_navigation_books li {
+    list-style: none;											
+    font:bold 14px/30px Georgia, serif;
+    margin: 15px 0;																/*This is where we are spacing the list elements*/									
+    text-decoration: none;
+}
+
+ul#SideContainer_navigation_books li a{
+	text-decoration: none;
+	color: black;
+	padding: 0px 0 0px 200px;							/*This is where we are adjusting how far the sidebar goes into the page*/
+}
+
+.MenuContainer_cards {
+    height: 70px;
+}
+
+ul#navigation_cards {
+	position: fixed;
+ 	width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation_cards li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation_cards li a{
+	text-decoration: none;
+	color: black;
+}
+
+#SideContainer_cards {
+    position: fixed;	
+    text-align: right;
+}
+
+ul#SideContainer_navigation_cards {
+    list-style: none;
+    padding-bottom: 70px;
+    font-size: 22px;
+}
+
+ul#SideContainer_navigation_cards li {
+    list-style: none;											
+    font:bold 14px/30px Georgia, serif;
+    margin: 15px 0;																/*This is where we are spacing the list elements*/									
+    text-decoration: none;
+}
+
+ul#SideContainer_navigation_cards li a{
+	text-decoration: none;
+	color: black;
+	padding: 0px 0 0px 200px;							/*This is where we are adjusting how far the sidebar goes into the page*/
+}
+
+.MenuContainer_commercial {
+    height: 70px;
+}
+
+ul#navigation_commercial {
+	position: fixed;
+ 	width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;  
+    text-align: center;
+    font-size: 22px;
+}
+
+ul#navigation_commercial li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    font:bold 14px/30px Georgia, serif;
+    text-decoration: none;
+}
+
+ul#navigation_commercial li a{
+	text-decoration: none;
+	color: black;
+}
+
+#SideContainer_commercial {
+    position: fixed;	
+    text-align: right;
+}
+
+ul#SideContainer_navigation_commercial {
+    list-style: none;
+    padding-bottom: 70px;
+    font-size: 22px;
+}
+
+ul#SideContainer_navigation_commercial li {
+    list-style: none;											
+    font:bold 14px/30px Georgia, serif;
+    margin: 15px 0;																/*This is where we are spacing the list elements*/									
+    text-decoration: none;
+}
+
+ul#SideContainer_navigation_commercial li a{
+	text-decoration: none;
+	color: black;
+	padding: 0px 0 0px 200px;							/*This is where we are adjusting how far the sidebar goes into the page*/
+}
+
+#illustrator{
+    font-size: 16px;
+    color: gray;
+}

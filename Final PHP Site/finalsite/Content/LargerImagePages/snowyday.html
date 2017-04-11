@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tanya Zabinski | illustrator/author</title>
+	<h1 id="coverpage_title"><span>Tanya Zabinski</span><span id="illustrator">&nbsp;&nbsp;&nbsp;illustrator/author</span></h1>	
+	<link rel="stylesheet" type="text/css" href="../../CSS/bookdemo_style.css"></link>	
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-89405110-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</head>
+<body>
+<div id="MenuContainer_books">
+<ul id="navigation_books">
+	<li><a href="../../index.php" >home</a></li>
+	<li><a href="../Subpages/books.php" >portfolio</a></li>
+	<li><a href="../Subpages/contact.php" >bio&contact</a></li>
+</ul>
+</div>
+<table id="image_slideshow_table" >
+<tr>
+	<td style="padding-right: 105px;"><a class="w3-btn-floating w3-light-grey" onclick="plusDivs(-1)"><</a></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/I_Rise.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/strawberry.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/bell.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/chirp_chirp.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/raindrops.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/sun-and-sand.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/pedal-along.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/butterfly.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/picking-a-pumpkin.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/autumn 1.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/blanket.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/rustle_rustle.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/hot-tea.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/snowy-day copy.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/whirling_twirling.png"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/frosty_breath.jpg"></td>
+	<td><img class="mySlides" src="../Books/Around_the_seasons/taking_flight.jpg"></td>
+	<td style="padding-left: 100px;"><a class="w3-btn-floating w3-light-grey" onclick="plusDivs(+1)">></a></td>
+</tr>
+</table>
+<table id="image_slideshow_captions">
+<tr>
+	<td class="myCaptions">"I Rise"</td>
+	<td class="myCaptions">"Strawberry"</td>
+	<td class="myCaptions">"Snow Bell"</td>
+	<td class="myCaptions">"Chirp Chirp"</td>
+	<td class="myCaptions">"Raindrops"</td>
+	<td class="myCaptions">"Sun and Sand"</td>
+	<td class="myCaptions">"Pedal Along"</td>
+	<td class="myCaptions">"Butterfly Queen"</td>
+	<td class="myCaptions">"Picking a Pumpkin"</td>
+	<td class="myCaptions">"Autumn"</td>
+	<td class="myCaptions">"Blanket of Leaves"</td>
+	<td class="myCaptions">"Rustle Rustle"</td>
+	<td class="myCaptions">"Hot Tea"</td>
+	<td class="myCaptions">"Snowy Day"</td>
+	<td class="myCaptions">"Whirling Twirling"</td>
+	<td class="myCaptions">"Frosty Breath"</td>
+	<td class="myCaptions">"Taking Flight"</td>
+</tr>
+</table>
+<script>
+
+var slideIndex = 14;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+	var y = document.getElementsByClassName("myCaptions");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+		y[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+	y[slideIndex-1].style.display = "block";
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tanya Zabinski | illustrator/author</title>
+	<h1 id="coverpage_title"><span>Tanya Zabinski</span><span id="illustrator">&nbsp;&nbsp;&nbsp;illustrator/author</span></h1>	
+	<link rel="stylesheet" type="text/css" href="../../CSS/bookdemo_style.css"></link>	
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-89405110-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</head>
+<body>
+<div id="MenuContainer_books">
+<ul id="navigation_books">
+	<li><a href="../../index.php" >home</a></li>
+	<li><a href="../Subpages/books.php" >portfolio</a></li>
+	<li><a href="../Subpages/contact.php" >bio&contact</a></li>
+</ul>
+</div>
+<table id="image_slideshow_table" >
+<tr>
+	<td style="padding-right: 105px;"><a class="w3-btn-floating w3-light-grey" onclick="plusDivs(-1)"><</a></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Beauty.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Joy.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Abundance.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Strong_Health.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Education.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Wonder.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Gratitude.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Friendship.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Faith.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Community.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Comfort.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Home.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Guidance.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Peace.jpg"></td>
+	<td><img class="mySlides" src="../Books/Good_Wish/Love.jpg"></td>
+	<td style="padding-left: 100px;"><a class="w3-btn-floating w3-light-grey" onclick="plusDivs(+1)">></a></td>
+</tr>
+</table>
+<table id="image_slideshow_captions">
+<tr>
+	<td class="myCaptions">"Beauty"</td>
+	<td class="myCaptions">"Joy"</td>
+	<td class="myCaptions">"Abundance"</td>
+	<td class="myCaptions">"Strong Health"</td>
+	<td class="myCaptions">"Education"</td>
+	<td class="myCaptions">"Wonder"</td>
+	<td class="myCaptions">"Gratitude"</td>
+	<td class="myCaptions">"Friendship"</td>
+	<td class="myCaptions">"Faith"</td>
+	<td class="myCaptions">"Community"</td>
+	<td class="myCaptions">"Comfort"</td>
+	<td class="myCaptions">"Home"</td>
+	<td class="myCaptions">"Guidance"</td>
+	<td class="myCaptions">"Peace"</td>
+	<td class="myCaptions">"Love"</td>
+</tr>
+</table>
+<script>
+
+var slideIndex = 11;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+	var y = document.getElementsByClassName("myCaptions");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+		y[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+	y[slideIndex-1].style.display = "block";
+}
+
+</script>
+
+</body>
+</html>
